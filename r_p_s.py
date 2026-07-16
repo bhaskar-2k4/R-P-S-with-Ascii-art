@@ -1,6 +1,6 @@
 import random
-rn = int(input("Enter 0 for Rock, 1 for Paper, 2 for Scissor\n"))
-if rn == 0:
+urs_choise = int(input("Enter 0 for Rock, 1 for Paper, 2 for Scissor\n"))
+if urs_choise == 0:
     print("YOURS CHOICE IS: ")
     print("""
         _______
@@ -11,7 +11,7 @@ if rn == 0:
     ---.__(___)
     """)
     
-elif rn == 1:
+elif urs_choise == 1:
     print("YOURS CHOICE IS : ")
     print("""
          _______
@@ -22,7 +22,7 @@ elif rn == 1:
     ---.__________)
     """)
 
-elif rn == 2:
+elif urs_choise == 2:
     print("YOURS CHOICE IS : ")
     print("""
         _______
@@ -65,13 +65,13 @@ elif random_choice == 2:
     ---.__(___)
     """)
     
-if rn == 0 and random_choice == 2:
+if  urs_choise == 0 and random_choice == 2:
     print("YOU WON THIS GAME")
-elif rn == 1 and random_choice == 0:
+elif urs_choise == 1 and random_choice == 0:
     print("YOU WON THIS GAME")
-elif rn == 2 and random_choice == 1:
+elif urs_choise == 2 and random_choice == 1:
     print("YOU WON THIS GAME")
-elif rn == random_choice:
+elif urs_choise == random_choice:
     print("GAME TIE REMATCH ")
 else:
     print("YOU LOST THIS GAME")
